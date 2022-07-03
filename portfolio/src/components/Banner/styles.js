@@ -31,6 +31,7 @@ align-items: center;
 padding: 15px;
 
 
+
 `
 
 export const InfosContainer = styled.div`
@@ -38,13 +39,16 @@ display: flex;
 flex-direction: column;
 gap: 0.7rem;
 width: 100%;
-
+margin-left: 80px;
+margin-right: 80px;
 
 text-align: left;
 @media (max-width:800px){
     animation: ${appearFromBottom} 3s ;
     text-align: center;
     align-items: center;
+    margin-left: 0;
+    margin-right: 0;
 }
 h3{
 
