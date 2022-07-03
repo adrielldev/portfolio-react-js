@@ -8,7 +8,7 @@ skills
 feito!
 
 projects
-
+feito!
 
 blog
 
@@ -16,4 +16,9 @@ blog
 contact
 
 footer
+
+
+extras:
+animated rotating react icon on skills
+
 
