@@ -10,9 +10,6 @@ feito!
 projects
 feito!
 
-blog
-
-
 contact
 
 footer

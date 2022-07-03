@@ -98,6 +98,7 @@ h4{
 }
 p{
     color:#aaa;
+    height: 60px;
 }
 @media (max-width:768px){
     img{

@@ -48,7 +48,6 @@ const Nav = () => {
               <ListItem active={activeHome}>  <a href='#home' onClick={activeItemHome}>Home</a></ListItem>
               <ListItem active={activeSkills}><a href='#skills' onClick={activeItemSkills}>Skills</a></ListItem>
               <ListItem active={activeProject}><a href='#projects' onClick={activeItemProjects}>Projects</a></ListItem>
-              <ListItem active={activeBlog}><a href='#blog' onClick={activeItemBlog}>Blog</a></ListItem>
                 
                 
                 
