@@ -12,6 +12,9 @@ feito!
 
 contact
 
+! fazendo, n esquecer de switch pra contact quando voltar a codar o portfolio!
+
+
 footer
 
 
