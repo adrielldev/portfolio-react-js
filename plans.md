@@ -5,8 +5,10 @@ main
 feito!
 
 skills
+feito!
 
 projects
+
 
 blog
 
