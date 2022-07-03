@@ -42,7 +42,7 @@ const Nav = () => {
 
     return (
         <Container>
-           <a href='#home'> <h1>&lt;Adrieldev/&gt;</h1></a>
+           <a href='#home' onClick={activeItemHome}> <h1>&lt;Adrieldev/&gt;</h1></a>
             <Content>
             <SectionContainer> 
               <ListItem active={activeHome}>  <a href='#home' onClick={activeItemHome}>Home</a></ListItem>
