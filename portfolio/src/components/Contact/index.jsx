@@ -10,6 +10,8 @@ import {yupResolver} from '@hookform/resolvers/yup'
 
 
 
+
+
     return (
         <Container>
             <ImgContainer>
@@ -18,17 +20,17 @@ import {yupResolver} from '@hookform/resolvers/yup'
             <FormContainer>
                 <h1>Contact me!</h1>
                 <form>
-                    <div>
+                    
                     <input type='text' placeholder='First Name'></input>
                     <input type='text' placeholder='Last Name'></input>
-                    </div>
-                    <div>
+                    
+                    
                     <input type='email' placeholder='Email'></input>
                     <input type='tel' placeholder='Phone'></input>
-                    </div>
+                    
                     <textarea placeholder='Message'></textarea>
 
-                    <button type='submit'>Send message</button>
+                    <button type='submit'>Send</button>
                 </form>
 
             </FormContainer>
