@@ -2,16 +2,16 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
+width: 100%;
 display: flex;
 height: fit-content;
-align-items: center;
-justify-content:space-around;
-@media (max-width:1000px){
-    justify-content: center;
-}
+justify-content: space-around;
 margin-bottom: 20px;
 padding: 20px;
-width: 100%;
+@media (max-width:768px){
+    justify-content: center;
+}
+
 background: linear-gradient(to right,
         #0a0227,
         #3b2a77
@@ -22,89 +22,75 @@ background: linear-gradient(to right,
 `
 
 export const FormContainer = styled.div`
-padding: 15px;
+
 display: flex;
 flex-direction: column;
-gap: 3rem;
+
+@media (min-width:800px){
+    width: 50%;
+}
+
 h1{
-    text-align: center;
-    font-size: 27px;
-    font-weight: 600;
     color: #EDF4ED;
+    text-align: center;
+    font-size: 40px;
 }
 
 form{
     display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
     flex-direction: column;
-    align-items: center;
-    @media (max-width:510px){
-        justify-content:center;
-    }
+    gap: 2rem;
+    padding:15px;
     
     textarea{
         resize: none;
-        width: 100%;
-        height: 80px;
+        height: 90px;
         padding: 15px;
-        background: none;
-        border-radius: 15px;
-        border-color: #EDF4ED;
         color: #EDF4ED;
+        background:none;
+        border: 1px solid #EDF4ED;
+        border-radius: 15px;
     }
     textarea::placeholder{
         color: #EDF4ED;
     }
+
     input{
         padding: 15px;
-        background: none;
-        border-radius: 15px;
+        height: 50px;
         color: #EDF4ED;
+        background:none;
         border: 1px solid #EDF4ED;
-        margin-right: 10px;
+        border-radius: 15px;
     }
     input::placeholder{
         color: #EDF4ED;
-    }
-    div{
-        padding: 15px;
-        input{
-            margin-bottom: 15px;
-        }
-    }
 
+    }
     button{
-        padding: 15px;
-        width: 120px;
-        height: 40px;
-        border: none;
+        padding: 10px;
+        width: 50%;
+        border: 1px solid #222;
+        color: #222;
+        background-color: #EDF4ED;
         font-weight: 700;
-        cursor: pointer;
+        font-size: 17px;
         transition: .5s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow-y: hidden;
-        margin-top: 10px;
+        cursor: pointer;
+
     }
     button:hover{
         color: #EDF4ED;
-        background-color: #3b2a77;
+        background-color: #222;
+        
     }
-
-    
-
 }
-
 
 `
 
 export const ImgContainer = styled.div`
-img{
-    width: 100%;
-}
-@media (max-width:1000px){
+
+@media (max-width:800px){
     img{
         display: none;
     }
