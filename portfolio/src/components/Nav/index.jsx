@@ -53,10 +53,11 @@ const Nav = () => {
                 
             </SectionContainer>
            
-
-            <button>
+            <a href='#contact'>
+            <button >
                 Connect
             </button>
+            </a>
             </Content>
         </Container>
 

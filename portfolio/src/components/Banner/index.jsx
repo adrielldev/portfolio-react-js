@@ -24,8 +24,9 @@ const Banner = () => {
 
 
                 </p>
-                
-                <button> Connect </button>
+                <a href='#contact'>
+                    <button> Connect </button>
+                </a>
             </InfosContainer>
             <ImgContainer>
                 <img src={astronautImg}/>
