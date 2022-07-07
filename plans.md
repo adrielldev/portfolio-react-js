@@ -17,11 +17,11 @@ feito!
 
 
 footer
+feito!!
 
 
 extras:
 animated rotating react icon on skills
 
-change language button en => pt
 
 

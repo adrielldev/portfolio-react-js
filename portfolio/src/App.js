@@ -4,10 +4,13 @@ import './globals.css'
 import Skills from "./components/Skills";
 import Projects from './components/Projects'
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
+
 function App() {
+
   return (
     <>
     <Nav/>
@@ -15,6 +18,7 @@ function App() {
     <Skills/>
     <Projects/>
     <Contact/>
+    <Footer/>
 
     <ToastContainer/>
     </>

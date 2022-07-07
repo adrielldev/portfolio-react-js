@@ -6,7 +6,6 @@ width: 100%;
 display: flex;
 height: fit-content;
 justify-content: space-around;
-margin-bottom: 20px;
 padding: 20px;
 @media (max-width:768px){
     justify-content: center;
