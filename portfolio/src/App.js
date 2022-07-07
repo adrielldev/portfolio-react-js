@@ -4,6 +4,9 @@ import './globals.css'
 import Skills from "./components/Skills";
 import Projects from './components/Projects'
 import Contact from "./components/Contact";
+
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <>
@@ -12,6 +15,8 @@ function App() {
     <Skills/>
     <Projects/>
     <Contact/>
+
+    <ToastContainer/>
     </>
   );
 }
