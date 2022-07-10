@@ -17,7 +17,7 @@ const Banner = () => {
                    techonology market. I have the domain of the principal stacks to garantee a good work in the front-end design, as you can see in my projects in my github.
                     And i also have the soft skils needed to maintain a good ambient to work.
                     I am open to receive jobs proposals, or freelances projects.
-                   You can contact me clicking in the button above,
+                   You can contact me clicking in the button below,
                    send me an e-mail let's talk :)
                   
 
