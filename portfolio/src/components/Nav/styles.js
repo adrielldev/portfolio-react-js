@@ -16,8 +16,8 @@ export const Container = styled.div`
     h1{
         background: linear-gradient(
     to right, 
-    #3b2a77,
-    #EDF4ED
+    #696EFF,
+        #8178FF
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

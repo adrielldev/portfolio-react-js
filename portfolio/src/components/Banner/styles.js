@@ -56,8 +56,8 @@ h3{
     padding:10px;
     background: linear-gradient(to right,
         
-        #3b2a77,
-        #0a0227) ;
+        #696EFF,
+        #8178FF) ;
     border: 1px solid ;
 }
 p{

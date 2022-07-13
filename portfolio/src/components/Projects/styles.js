@@ -67,8 +67,8 @@ button{
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right,
-        #0a0227,
-        #3b2a77
+        #696EFF,
+        #8178FF
         ) ;
         transition: .5s;
 }

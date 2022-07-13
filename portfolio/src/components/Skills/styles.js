@@ -58,7 +58,7 @@ li{
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background-color: black;
+    background-color: #696EFF;
     border-radius: 20px;
     gap: 2rem;
     h2{
